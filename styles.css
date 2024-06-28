@@ -79,6 +79,12 @@ h2 {
     transition: transform 0.2s;
 }
 
+.img-item {
+    height: 90%;
+    background-color: black;
+    padding: 1rem;
+}
+
 .gallery-image:hover {
     transform: scale(1.1);
 }
