@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>写真作品</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>写真作品</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <div class="img-item">
+                <img src="picture1.jpg" alt="写真1" class="gallery-image">
+            </div>
+            <p>写真1のタイトル</p>
+        </div>
+        <div class="gallery-item">
+            <div class="img-item">
+                <img src="picture2.jpg" alt="写真2" class="gallery-image">
+            </div>
+            <p>写真2のタイトル</p>
+        </div>
+        <div class="gallery-item">
+            <div class="img-item">
+                <img src="picture3.jpg" alt="写真3" class="gallery-image">
+            </div>
+            <p>写真3のタイトル</p>
+        </div>
+    </div>
+
+    <!-- モーダルのHTML -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image" alt="">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
