@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', (event) => {
     var modal = document.getElementById("modal");
     var modalImg = document.getElementById("modal-image");
@@ -25,3 +23,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 });
+
