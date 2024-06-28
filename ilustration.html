@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>イラスト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Blender作品</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <div class="img-item">
+                <img src="image1.jpg" alt="作品1" class="gallery-image">
+            </div>
+            <p>作品1</p>
+        </div>
+        <div class="gallery-item">
+            <div class="img-item">
+                <img src="image2.jpg" alt="作品2" class="gallery-image">
+            </div>
+            <p>作品2</p>
+        </div>
+        <div class="gallery-item">
+            <div class="img-item">
+                <img src="image3.jpg" alt="作品3" class="gallery-image">
+            </div>
+            <p>作品3</p>
+        </div>
+    </div>
+
+    <!-- モーダルのHTML -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image" alt="">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
