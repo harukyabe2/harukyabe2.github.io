@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ポートフォリオサイト</title>
+    <title>ポートフォリオ</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>My portfolio</h1>
-    <p>ポートフォリオサイトです。</p>
-    
-    <h2 id="works">WORKS</h2>
-    <div class="work-card">
-        <img src="blender-thumbnail.jpg" alt="Blender Thumbnail" class="work-image">
-        <h3>Blender</h3>
-        <a href="blender.html" class="work-button">作品</a>
-    </div>
-    <div class="work-card">
-        <img src="b.jpg" alt="Blender Thumbnail" class="work-image">
-        <h3>Ilustration</h3>
-        <a href="ilustration.html" class="work-button">作品</a>
-    </div>
-    <!-- 他の項目があればここに追加 -->
-
+    <header>
+        <h1>ポートフォリオサイト</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>ABOUT</h2>
+        <p>ここに自己紹介や経歴などを記載します。</p>
+    </section>
+    <section id="works">
+        <h2>WORKS</h2>
+        <div class="work-cards">
+            <div class="work-card">
+                <img src="blender.jpg" alt="Blender" class="work-image">
+                <h3>Blender</h3>
+                <a href="blender.html" class="work-button">作品を見る</a>
+            </div>
+            <div class="work-card">
+                <img src="illustration.jpg" alt="Illustration" class="work-image">
+                <h3>Illustration</h3>
+                <a href="illustration.html" class="work-button">作品を見る</a>
+            </div>
+            <div class="work-card">
+                <img src="picture.jpg" alt="写真" class="work-image">
+                <h3>写真</h3>
+                <a href="picture.html" class="work-button">作品を見る</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <p>ここにお問い合わせ先を記載します。</p>
+    </section>
 </body>
 </html>
