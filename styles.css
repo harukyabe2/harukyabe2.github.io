@@ -25,6 +25,23 @@ p {
     border-radius: 5px;
 }
 
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-text {
+    max-width: 600px;
+}
+
 .work-cards {
     display: flex;
     justify-content: space-around;
