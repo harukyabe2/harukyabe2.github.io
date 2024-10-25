@@ -39,7 +39,7 @@ p {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: calc(100% - 40px); /* Adjust the width based on margins */
+    width: calc(100% - 100px); /* Adjust the width based on margins */
     max-width: 960px; /* Max width to match the works section */
 }
 
